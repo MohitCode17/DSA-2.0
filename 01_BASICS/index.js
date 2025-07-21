@@ -1,42 +1,44 @@
 /* -------- BASICS ------------------------------------------ */
 
-// 👉 What is Data Structure ?
+/*
+👉 What is Data Structure ?
 
-// A data structure is a way of organizing, storing, and managing data in a computer so that it can be used efficiently.
+A data structure is a way of organizing, storing, and managing data in a computer so that it can be used efficiently.
 
-// Types of Data Structure:-
+Types of Data Structure:-
 
-// 1. Linear Data Structure: In linear data structures, the elements are arranged in sequence one after the other. example:- Array, Linked List, Stack, Queue.
+1. Linear Data Structure: In linear data structures, the elements are arranged in sequence one after the other. example:- Array, Linked List, Stack, Queue.
 
-// 2. Non Linear Data Structure: Data is arranged hierarchically or in a complex relationship. example: Tree, Graph.
+2. Non Linear Data Structure: Data is arranged hierarchically or in a complex relationship. example: Tree, Graph.
 
-// 3. Hash Based Structure: Data is stored in key-value pairs. example: Hash Table/ Hash Map.
+3. Hash Based Structure: Data is stored in key-value pairs. example: Hash Table/ Hash Map.
 
-// 👉 What is an Algorithm ?
+👉 What is an Algorithm ?
 
-// An algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of inputs and produces the desired output.
+An algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of inputs and produces the desired output.
 
-// Example:
-// An algorithm to add two numbers:
+Example:
+An algorithm to add two numbers:
 
-// 1. Take two number inputs
-// 2. Add numbers using the + operator
-// 3. Display the result
+1. Take two number inputs
+2. Add numbers using the + operator
+3. Display the result
 
-// 👉 How to solve a programming problem ?
+👉 How to solve a programming problem ?
 
-// Let say you have a given the problem, sum of two numbers:-
+Let say you have a given the problem, sum of two numbers:-
 
-// 1. Understand the problem - Sum of Two numbers
-// 2. Check the given values - 2 variables, Data Types, etc.
-// 3. Figure out the approach - a + b = answer
-// 4. Finally code
+1. Understand the problem - Sum of Two numbers
+2. Check the given values - 2 variables, Data Types, etc.
+3. Figure out the approach - a + b = answer
+4. Finally code
 
 let a = 10;
 let b = 20;
 let answer = a + b;
 
-// 👉 Data Types: Data types in programming languages define the kind of data that can be stored and manipulated within a program.
+👉 Data Types: Data types in programming languages define the kind of data that can be stored and manipulated within a program.
+*/
 
 // Primitive Types:-
 
@@ -85,19 +87,20 @@ let today = new Date(); // Date object
 // and comparison rules) apply to JavaScript and may vary in other languages.
 // ================================================
 
-// 👉 Type Conversion
+/*
+👉 Type Conversion
 
-// Type conversion in JavaScript refers to the process of transforming data from one data type to another.
+Type conversion in JavaScript refers to the process of transforming data from one data type to another.
 
-// **Implicit Type Conversion (Type Coercion)**: This happens automatically when JavaScript encounters an operation involving different data types. JavaScript attempts to convert one of the operands to a compatible type to perform the operation.
+**Implicit Type Conversion (Type Coercion)**: This happens automatically when JavaScript encounters an operation involving different data types. JavaScript attempts to convert one of the operands to a compatible type to perform the operation.
 
 console.log("5" + 3); // "53" → Number 3 is converted to string and concatenated
 console.log("5" - 3); // 2 → String '5' is converted to number automatically
 console.log(true + 1); // 2 → true is converted to 1
 
-// 👉 Type Casting
+👉 Type Casting
 
-// Involves manually converting a value from one data type to another using built-in functions or operators.
+Involves manually converting a value from one data type to another using built-in functions or operators.
 
 let str = "123";
 let num = Number(str); // String to Number
@@ -110,13 +113,12 @@ console.log(s); // "456"
 let bool = Boolean(0); // 0 is falsy, so it becomes false
 console.log(bool); // false
 
-// 👉 Operators
+👉 Operators
 
-// Operators are special symbols or keywords that are used to perform operations on variables and values.
+Operators are special symbols or keywords that are used to perform operations on variables and values.
 
-// Types of Operators:-
+Types of Operators:-
 
-/*
 | Operator Type            | Example Symbols                                |
 | ------------------------ | ---------------------------------------------- |
 | 1. Arithmetic Operators  | `+`, `-`, `*`, `/`, `%`, `++`, `--`            |
@@ -128,6 +130,7 @@ console.log(bool); // false
 | 7. Type Operators        | `typeof`, `instanceof`                         |
 | 8. Bitwise Operators     | `&`, \`, `^`, `\~`, `<<`, `>>`, `>>>\`         |
 | 9. Spread/Rest Operators | `...`                                          |
+
 */
 
 // 1. Arithmetic Operators

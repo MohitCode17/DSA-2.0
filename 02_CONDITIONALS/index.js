@@ -1,21 +1,22 @@
 /* -------- CONDITIONAL STATEMENTS ------------------------------------------ */
 
-// 👉 What is Conditional Statements ?
+/*
+👉 What is Conditional Statements ?
 
-// Conditional statements are used to perform different actions based on different conditions.
-// They allow your program to make decisions and execute code blocks conditionally.
+Conditional statements are used to perform different actions based on different conditions.
+They allow your program to make decisions and execute code blocks conditionally.
 
-// Types of Conditional Statements in JavaScript:-
+Types of Conditional Statements in JavaScript:-
 
-// 1. if Statement
-// 2. if...else Statement
-// 3. if...else if...else Statement
-// 4. switch Statement
-// 5. Ternary Operator (Shorthand if...else):-
+1. if Statement
+2. if...else Statement
+3. if...else if...else Statement
+4. switch Statement
+5. Ternary Operator (Shorthand if...else):-
 
-// 👉 if Statement
+👉 if Statement
 
-// Executes a block of code if the condition is true.
+Executes a block of code if the condition is true.
 
 let age = 20;
 
@@ -23,9 +24,9 @@ if (age >= 18) {
   console.log("You are an adult.");
 }
 
-// 👉 if...else Statement
+👉 if...else Statement
 
-// Executes one block if the condition is true, and another if it's false.
+Executes one block if the condition is true, and another if it's false.
 
 if (age >= 18) {
   console.log("You can vote.");
@@ -33,9 +34,9 @@ if (age >= 18) {
   console.log("You are too young to vote.");
 }
 
-// 👉 if...else if...else Statement
+👉 if...else if...else Statement
 
-// Allows checking multiple conditions.
+Allows checking multiple conditions.
 
 let marks = 75;
 
@@ -49,9 +50,9 @@ if (marks >= 90) {
   console.log("Grade: F");
 }
 
-// 👉 switch Statement
+👉 switch Statement
 
-// Tests a variable against multiple possible cases.
+Tests a variable against multiple possible cases.
 
 let day = 3;
 
@@ -69,14 +70,16 @@ switch (day) {
     console.log("Invalid day");
 }
 
-// 👉 Ternary Operator (Shorthand if...else)
+👉 Ternary Operator (Shorthand if...else)
 
-// A compact syntax for simple if...else.
+A compact syntax for simple if...else.
 
 let message = age >= 18 ? "You can vote." : "You cannot vote.";
 console.log(message);
 
-// -----------------------------------------------------------------------------------------------------------------------
+*/
+
+/************ PRACTISE QUESTIONS **************************************************************************************/
 
 // 👉 Q.1 Apply a Shop Discount on specific purchase amount and return the final value after reducing a discount.
 
@@ -85,7 +88,6 @@ console.log(message);
 // 3001 - 5000 -> 10%
 // > 5000 -> 20%
 
-/*
 let purchaseValue = Number(prompt("Enter your purchase amount."));
 let discount = 0;
 
@@ -105,7 +107,6 @@ function finalValue(purchaseAmount, discountPercentage) {
 }
 
 console.log(`You need to pay: ${finalValue(purchaseValue, discount)}`);
-*/
 
 // 👉 Q.2 You need to calculate electricity bill according to units. Ex: Total Unit is 120, Then upto 100 by 4/unit, 20 units by 6/unit.
 
@@ -115,7 +116,6 @@ console.log(`You need to pay: ${finalValue(purchaseValue, discount)}`);
 // 200 to 400        8/unit
 // > 400            13/unit
 
-/*
 let units = Number(prompt("Enter you electricity units."));
 let billPayable = 0;
 
@@ -137,7 +137,6 @@ if (units > 100 && units <= 200) {
 billPayable += units * 4; // 400
 
 console.log(billPayable);
-*/
 
 // 👉 4. INR Denomination
 
